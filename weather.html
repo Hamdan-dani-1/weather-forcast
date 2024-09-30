@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="search-section">
+    <div class="search-container">
+        <input type="text" placeholder="enter your city" class="search">
+
+    </div>
+    <div class="button">
+        <button class="btn">Search</button>
+    </div>
+</div>
+    <div class="maiin">
+        <div class="maintext">
+            <marquee behavior="smooth" direction="left" class="main" width="50%">weather forcast</marquee>
+        </div>
+        <div class="side">
+            <div class="sidebar">
+                <div class="location">
+                    <span class="location-icon">📍</span>
+                    <span class="location-text"></span>
+                    <span class="dropdown-arrow">▼</span>
+                </div>
+            </div>
+            <div class="weather-container">
+                <div class="current-weather">
+                    <h1 class="cels">11°C</h1>
+                    <p class="nort">Northwest, 38.9 km/h</p>
+                </div>
+                <div class="forecast-section">
+                    <h2 class="forcast-h">The Next Days Forecast</h2>
+                    <div class="tabs">
+                        <button class="active  active-1">10 days</button>
+                        <button class="active  active-2">5 days</button>
+                       
+                    </div>
+                    <div class="forecast">
+                        <div class="day">
+                            <p>Friday, April 21</p>
+                            <p>Heavy Rain</p>
+                            <p>9° / 16°</p>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="dayz">
+            <div class="hourly-forecast">
+                <div class="hour">
+               
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="weather.js"></script>
+</body>
+
+</html>
